@@ -191,7 +191,7 @@ function drawTitle ()
         local font = getFont("Play-Bold", 25)
         local subtitle = "Tier "..tiers.." only"
         setNextTextAlign(bglayer, AlignH_Center, AlignV_Middle)
-        addText(bglayer, font, title, rx/2, 40+25)
+        addText(bglayer, font, subtitle, rx/2, 40+25)
     end
 end
 
