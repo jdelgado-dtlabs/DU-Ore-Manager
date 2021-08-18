@@ -1,5 +1,7 @@
 # DU-Ore-Manager
 ## Dual Universe Ore Inventory Manager
+
+![Initial Screen](/images/1.png)
 This project leverages the recently released screen LUA APIs to provide an interface with the programming board.
 
 With this system, you can set up a public drop off point for ore with requirements for each available ore, and set the system to show all tiers, or single tier at a time.
@@ -13,9 +15,12 @@ local bgPlanetImg = "assets.prod.novaquark.com/20368/954f3adb-3369-4ea9-854d-a14
 local tiers = 0 --export: Default is 0, or all tiers. If you set a tier (1-5), then only that tier will be displayed.
 ...
 ```
-
+![Needs ore](/images/3.png)
+![No ore](/images/5.png)
+![Limit reached](/images/6.png)
 Set your RDMS how you like with public dropoff only (no viewing of contents), and use this app to show what you need and how much you have of it. If you reach your limit for that ore, the system lets you know the ore order has been fufilled. If the container is full, this system will be locked out until you empty it again.
-
+![Tier 1 only](/images/7.png)
+![Tier 3 only](/images/8.png)
 There is no databank support for now, so if you reload the script onto the programming board, you will have to reenter the values into the lua parameters.
 
 ## How to Setup
